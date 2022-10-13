@@ -5,7 +5,7 @@ import bgPic from "../assets/3d-mac.svg";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen pb-[1000px] sm:pb-0  bg-[#003667]">
+    <div className="w-full h-screen pb-[1200px] sm:pb-0  bg-[#003667]">
       <img
         className="hidden xl:flex absolute top-[10%] right-[10%] z-10"
         src={bgPic}
