@@ -8,14 +8,14 @@ const Hero = () => {
     <div>
       <div className="w-full h-screen  bg-[#003667]">
         <img
-          className="hidden xl:flex fixed top-[10%] right-[10%] z-10"
+          className="hidden xl:flex absolute top-[10%] right-[10%] z-10"
           src={bgPic}
           alt=""
         />
         {/* <div className="bg-3dMac bg-no-repeat w-[800px] h-[800px] "></div> */}
 
         {/* container */}
-        <div className="max-w-[1000px] mx-auto px-8 fixed top-[25%] left-[15%] flex flex-col h-full z-20 ">
+        <div className="max-w-[1000px] mx-auto px-8 absolute top-[25%] left-[15%] flex flex-col h-full z-20 ">
           <p className="text-xl text-white">Hi there, I'm</p>
           <h1 className="text-4xl sm:text-8xl font-bold pt-[10px] text-[#0fc2ba]">
             <Typed

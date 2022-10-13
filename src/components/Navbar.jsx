@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="hidden lg:flex fixed flex-col top-[25%] mb-[40px] left-0">
         <li className="w-[190px] h-[50px] rounded-3xl flex justify-between items-center ml-[-100px]  mb-[20px] hover:ml-[2px] duration-300 hover:bg-[#0fc2ba]">
           <a
-            className="flex justify-between  items-center w-full h-full ml-[35px] text-[#0fc2ba] hover:text-white"
+            className=" flex justify-between  items-center w-full h-[50px] ml-[35px] text-[#0fc2ba] hover:text-white"
             href="/"
           >
             Github <FaGithub className="mr-[30px]" size={30} />
@@ -52,7 +52,7 @@ const Navbar = () => {
 
         <li className="w-[190px] h-[50px] rounded-3xl flex justify-between items-center ml-[-100px]  mb-[20px] hover:ml-[2px] duration-300 hover:bg-[#0fc2ba]">
           <a
-            className="flex justify-between  items-center w-full ml-[35px] text-[#0fc2ba]  hover:text-white"
+            className="flex justify-between  items-center w-full  h-[50px] ml-[35px] text-[#0fc2ba]  hover:text-white"
             href="/"
           >
             Linkedin <FaLinkedin className="mr-[30px]" size={30} />
@@ -61,7 +61,7 @@ const Navbar = () => {
 
         <li className="w-[190px] h-[50px] rounded-3xl flex justify-between items-center ml-[-100px]  mb-[20px] hover:ml-[2px] duration-300 hover:bg-[#0fc2ba]">
           <a
-            className="flex justify-between  items-center w-full ml-[35px] text-[#0fc2ba]  hover:text-white"
+            className="flex justify-between  items-center w-full  h-[50px] ml-[35px] text-[#0fc2ba]  hover:text-white"
             href="/"
           >
             Email <HiOutlineMail className="mr-[30px]" size={30} />
@@ -70,7 +70,7 @@ const Navbar = () => {
 
         <li className="w-[190px] h-[50px] rounded-3xl flex justify-between items-center ml-[-100px]  mb-[20px] hover:ml-[2px] duration-300 hover:bg-[#0fc2ba]">
           <a
-            className="flex justify-between  items-center w-full ml-[35px] text-[#0fc2ba]  hover:text-white"
+            className="flex justify-between  items-center w-full  h-[50px] ml-[35px] text-[#0fc2ba]  hover:text-white"
             href="/"
           >
             Resume <IoLogoOctocat className="mr-[30px]" size={30} />
