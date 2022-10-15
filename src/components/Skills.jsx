@@ -11,11 +11,11 @@ import FireBase from "../assets/Firebase.png";
 const Skills = () => {
   return (
     <div className="w-hull h-screen pb-[500px] sm:pb-0  text-white bg-[#003667]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl text-right font-bold inline border-b-4 border-[#0fc2ba]">
+          <h2 className="text-4xl text-right font-bold inline border-b-4 border-[#0fc2ba]">
             Skills
-          </p>
+          </h2>
           <p className="py-4">
             These are the skills I've been studying and working with
           </p>
