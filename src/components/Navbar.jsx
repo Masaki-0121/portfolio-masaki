@@ -12,14 +12,111 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#003667] text-gray-300 z-40">
       <div className="">
-        <img src={Logo} alt="logo" />
+        <a
+          href="
+      "
+        >
+          <img src={Logo} alt="logo" />
+        </a>
       </div>
       {/* Menu */}
       <ul className="hidden md:flex">
-        <li className="px-5 hover:underline">About</li>
-        <li className="px-5 hover:underline">Skill</li>
-        <li className="px-5 hover:underline">Work</li>
-        <li className="px-5 hover:underline">Contact</li>
+        <li
+          className="px-5  relative
+                cursor-pointer
+                transition-all
+                duration-500
+                before:content-['']
+                before:absolute
+                before:-bottom-1
+                before:left-0
+                before:w-0
+                before:h-[1px]
+                before:rounded-full
+                before:opacity-0
+                before:transition-all
+                before:duration-500
+                before:bg-gradient-to-r
+                before:from-white
+                before:via-white
+                before:to-white
+                hover:before:w-full
+                hover:before:opacity-100"
+        >
+          About
+        </li>
+        <li
+          className="px-5 relative
+                cursor-pointer
+                transition-all
+                duration-500
+                before:content-['']
+                before:absolute
+                before:-bottom-1
+                before:left-0
+                before:w-0
+                before:h-[1px]
+                before:rounded-full
+                before:opacity-0
+                before:transition-all
+                before:duration-500
+                before:bg-gradient-to-r
+                before:from-white
+                before:via-white
+                before:to-white
+                hover:before:w-full
+                hover:before:opacity-100"
+        >
+          Skill
+        </li>
+        <li
+          className="px-5 relative
+                cursor-pointer
+                transition-all
+                duration-500
+                before:content-['']
+                before:absolute
+                before:-bottom-1
+                before:left-0
+                before:w-0
+                before:h-[1px]
+                before:rounded-full
+                before:opacity-0
+                before:transition-all
+                before:duration-500
+                before:bg-gradient-to-r
+                before:from-white
+                before:via-white
+                before:to-white
+                hover:before:w-full
+                hover:before:opacity-100"
+        >
+          Work
+        </li>
+        <li
+          className="px-5 relative
+                cursor-pointer
+                transition-all
+                duration-500
+                before:content-['']
+                before:absolute
+                before:-bottom-1
+                before:left-0
+                before:w-0
+                before:h-[1px]
+                before:rounded-full
+                before:opacity-0
+                before:transition-all
+                before:duration-500
+                before:bg-gradient-to-r
+                before:from-white
+                before:via-white
+                before:to-white
+                hover:before:w-full
+                hover:before:opacity-100"
+        >
+          Contact
+        </li>
       </ul>
       {/* Hamburger Menu */}
       <div onClick={handleClick} className="md:hidden z-50">

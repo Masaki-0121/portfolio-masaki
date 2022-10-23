@@ -75,7 +75,7 @@ const Contact = () => {
           >
             Send
           </button> */}
-          <div className="w-full text-[#0fc2ba] hover:border-[#0fc2ba] hover:bg-[#0fc2ba] hover:text-white font-bold  border-2  px-4 py-3 my-8 mx-auto flex justify-center items-center cursor-pointer">
+          <div className="w-full text-white bg-[#0fc2ba] border-[#0fc2ba] hover:bg-[#12c7be] hover:border-[#12c7be] font-bold  border-2  px-4 py-3 my-8 mx-auto flex justify-center items-center cursor-pointer">
             <input
               type="submit"
               className="btn btn-info"

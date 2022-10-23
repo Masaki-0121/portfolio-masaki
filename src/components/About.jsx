@@ -48,7 +48,11 @@ const About = () => {
               </ul>
             </div>
           </div>
-          <img className="sm:pl-[20%] pl-0" src={profilePic} alt="" />
+          <img
+            className="sm:pl-[20%] pl-0 animate-pulse"
+            src={profilePic}
+            alt=""
+          />
         </div>
       </div>
     </div>

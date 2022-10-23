@@ -1,20 +1,20 @@
 import React from "react";
-import workImg1 from "../assets/work-img1.jpg";
+import workImg1 from "../assets/pf-picture-2.jpg";
 import workImg2 from "../assets/work-img2.jpg";
 import workImg3 from "../assets/work-img3.jpg";
 
 const callouts = [
   {
-    name: "Desk and Office",
-    description: "Work from home accessories",
+    name: "Ramen Komugi",
+    description: "An imaginary Japanese noodle restaurant.",
     imageSrc: workImg1,
     imageAlt:
       "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
     href: "#",
   },
   {
-    name: "Self-Improvement",
-    description: "Journals and note-taking",
+    name: "Voyage",
+    description: "Travel agency home page",
     imageSrc: workImg2,
     imageAlt:
       "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
@@ -47,7 +47,7 @@ export default function Example() {
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
-                <h3 className="mt-6 text-sm text-white">
+                <h3 className="mt-6 text-sm text-[#0fc2ba]">
                   <a href={callout.href}>
                     <span className="absolute inset-0" />
                     {callout.name}
