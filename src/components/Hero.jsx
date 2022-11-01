@@ -5,7 +5,7 @@ import bgPic from "../assets/3d-mac.svg";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen pb-[1200px] sm:pb-0  bg-[#003667]">
+    <div className="w-full h-screen sm:pb-0  bg-[#003667]">
       <img
         className="hidden xl:flex absolute top-[10%] right-[10%] z-10"
         src={bgPic}
@@ -24,9 +24,11 @@ const Hero = () => {
             // loop
           />
         </h1>
+
         <p className="text-xl sm:text-7xl font-bold text-white pt-[10px]">
           I build things on the web
         </p>
+
         <p className="text-white pt-[10px] max-w-[700px]">
           I’m a passionate self-taught Front-end-developer, and UI UX designer
           based in Japan.

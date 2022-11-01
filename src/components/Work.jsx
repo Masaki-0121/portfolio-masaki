@@ -1,5 +1,5 @@
 import React from "react";
-import workImg1 from "../assets/pf-picture-2.jpg";
+import workImg1 from "../assets/pf-mockup-blue.jpg";
 import workImg2 from "../assets/work-img2.jpg";
 import workImg3 from "../assets/work-img3.jpg";
 
