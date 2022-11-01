@@ -11,10 +11,9 @@ const Hero = () => {
         src={bgPic}
         alt=""
       />
-      {/* <div className="bg-3dMac bg-no-repeat w-[800px] h-[800px] "></div> */}
 
       {/* container */}
-      <div className="max-w-[1000px] mx-auto h-screen px-8 flex flex-col absolute top-[30%] left-[5%] sm:absolute sm:top-[25%] sm:left-[15%] z-20 ">
+      <div className="max-w-[1000px] mx-auto h-2/5 px-8 flex flex-col absolute top-[30%] left-[5%] sm:absolute sm:top-[25%] sm:left-[15%] z-20 ">
         <p className="text-xl text-white">Hi there, I'm</p>
         <h1 className="text-4xl sm:text-8xl font-bold pt-[10px] text-[#0fc2ba]">
           <Typed

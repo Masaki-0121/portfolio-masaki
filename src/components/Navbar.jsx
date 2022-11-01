@@ -141,7 +141,7 @@ const Navbar = () => {
         <li className="w-[190px] h-[50px] rounded-3xl flex justify-between items-center ml-[-100px]   mb-[20px] hover:ml-[2px] duration-300 hover:bg-[#0fc2ba]">
           <a
             className=" flex justify-between  items-center w-full h-[50px] ml-[35px] text-[#0fc2ba] hover:text-white"
-            href="/"
+            href="https://github.com/Masaki-0121"
           >
             Github <FaGithub className="mr-[30px]" size={30} />
           </a>
