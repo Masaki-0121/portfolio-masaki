@@ -2,10 +2,14 @@ import React from "react";
 import Typed from "react-typed";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import bgPic from "../assets/3d-mac.svg";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen sm:pb-0  bg-[#003667]">
+    <div
+      id="Home"
+      className="w-full h-screen sm:h-screen sm:pb-0  bg-[#003667]"
+    >
       <img
         className="hidden xl:flex absolute top-[10%] right-[10%] z-10"
         src={bgPic}
@@ -33,12 +37,20 @@ const Hero = () => {
           based in Japan.
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#0fc2ba] hover:border-[#0fc2ba]">
-            View Work
-            <span className="group-hover:rotate-90 duration-300">
-              <IoIosArrowRoundForward className="ml-3" />
-            </span>
-          </button>
+          <Link
+            activeClass="active"
+            to="Work"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#0fc2ba] hover:border-[#0fc2ba]">
+              View Work
+              <span className="group-hover:rotate-90 duration-300">
+                <IoIosArrowRoundForward className="ml-3" />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

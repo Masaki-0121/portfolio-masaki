@@ -4,7 +4,6 @@ import emailjs from "@emailjs/browser";
 import contactImg from "../assets/3Dperson.svg";
 import ReactIcon from "../assets/react-original.svg";
 import FlutterIcon from "../assets/flutter-original.svg";
-import Fade from "react-reveal/Fade";
 
 const Contact = () => {
   const form = useRef();
@@ -31,7 +30,10 @@ const Contact = () => {
   };
 
   return (
-    <div className=" relative bg-[#003667]  flex justify-center items-center">
+    <div
+      id="Contact"
+      className=" h-screen sm:h-screen relative bg-[#003667]  flex justify-center items-center"
+    >
       <div className="hidden xl:flex  sm:absolute sm:top-0 sm:right-[2%]">
         <img
           className="h-[800px] w-[500px] animate-floating"

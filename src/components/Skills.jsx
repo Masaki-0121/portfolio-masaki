@@ -11,7 +11,10 @@ import Fade from "react-reveal/Fade";
 
 const Skills = () => {
   return (
-    <div className="w-hull h-[90vh]  sm:pb-0  text-white bg-[#003667]">
+    <div
+      id="Skill"
+      className="w-hull h-[150vh] sm:h-screen  sm:pb-0  text-white bg-[#003667]"
+    >
       <Fade bottom duration={2000}>
         <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div>

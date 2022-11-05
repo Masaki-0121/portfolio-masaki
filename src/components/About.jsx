@@ -6,8 +6,8 @@ import Fade from "react-reveal/Fade";
 const About = () => {
   return (
     <div
-      name="about"
-      className="w-full h-[90vh]  bg-[#003667]  sm:pb-0 text-white"
+      id="About"
+      className="w-full h-[150vh] sm:h-screen bg-[#003667]  sm:pb-0 text-white"
     >
       <Fade bottom duration={2000}>
         <div className="flex flex-col justify-center items-center w-full h-full">

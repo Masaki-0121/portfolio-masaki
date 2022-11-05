@@ -1,14 +1,13 @@
 import React from "react";
-import workImg3 from "../assets/work-img3.jpg";
 import Fade from "react-reveal/Fade";
 
 const callouts = [
   {
-    name: "My Portfolio",
+    name: "Ramen Komugi website",
     description:
       "This my first portfolio website made out by React.js and Twilwind CSS.",
     imageSrc: require("../assets/work1.jpg"),
-    imageAlt: "Portfolio website made out by React and Tailwind",
+    imageAlt: "",
     href: "#",
   },
   {
@@ -21,17 +20,18 @@ const callouts = [
     href: "#",
   },
   {
-    name: "Ramen Komugi",
-    description: "Daily commute essentials",
-    imageSrc: workImg3,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
+    name: "Portfolio Website",
+    description:
+      "This my first portfolio website made out by React.js and Twilwind CSS.",
+    imageSrc: require("../assets/work3.jpg"),
+    imageAlt: "Portfolio website made out by React and Tailwind",
     href: "#",
   },
 ];
 
 export default function Example() {
   return (
-    <div className="w-full sm:h-screen h-[90vh] bg-[#003667]">
+    <div id="Work" className="w-full h-[200vh] sm:h-screen bg-[#003667]">
       <Fade bottom duration={2000}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-white">
           <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">

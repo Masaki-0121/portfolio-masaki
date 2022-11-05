@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { IoLogoOctocat } from "react-icons/io";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import Logo from "../assets/Logo-MT.svg";
 
@@ -11,14 +12,19 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#003667] text-gray-300 z-40">
-      <div className="">
-        <a
-          href="
-      "
-        >
-          <img src={Logo} alt="logo" />
-        </a>
-      </div>
+      <ul>
+        <li className="cursor-pointer">
+          <Link
+            activeClass="active"
+            to="Home"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            <img src={Logo} alt="logo" />
+          </Link>
+        </li>
+      </ul>
       {/* Menu */}
       <ul className="hidden md:flex">
         <li
@@ -43,7 +49,15 @@ const Navbar = () => {
                 hover:before:w-full
                 hover:before:opacity-100"
         >
-          About
+          <Link
+            activeClass="active"
+            to="About"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            About
+          </Link>
         </li>
         <li
           className="px-5 relative
@@ -67,7 +81,15 @@ const Navbar = () => {
                 hover:before:w-full
                 hover:before:opacity-100"
         >
-          Skill
+          <Link
+            activeClass="active"
+            to="Skill"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Skill
+          </Link>
         </li>
         <li
           className="px-5 relative
@@ -91,7 +113,15 @@ const Navbar = () => {
                 hover:before:w-full
                 hover:before:opacity-100"
         >
-          Work
+          <Link
+            activeClass="active"
+            to="Work"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Work
+          </Link>
         </li>
         <li
           className="px-5 relative
@@ -115,26 +145,78 @@ const Navbar = () => {
                 hover:before:w-full
                 hover:before:opacity-100"
         >
-          Contact
+          <Link
+            activeClass="active"
+            to="Contact"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
         </li>
       </ul>
       {/* Hamburger Menu */}
       <div onClick={handleClick} className="md:hidden z-50">
-        {!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
+        {!nav ? (
+          <FaBars size={25} className="fill-[#0fc2ba]" />
+        ) : (
+          <FaTimes size={25} className="fill-[#0fc2ba]" />
+        )}
       </div>
       {/* Mobile Menu */}
       <ul
         className={
           !nav
             ? "hidden"
-            : "fixed top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "fixed top-0 left-0 w-full h-screen bg-[#003667] flex flex-col justify-center items-center text-white "
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Work</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-2xl">Home</li>
+        <li className="py-6 text-2xl">
+          <Link
+            activeClass="active"
+            to="About"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-2xl">
+          <Link
+            activeClass="active"
+            to="Skill"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Skill
+          </Link>
+        </li>
+        <li className="py-6 text-2xl">
+          <Link
+            activeClass="active"
+            to="Work"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Work
+          </Link>
+        </li>
+        <li className="py-6 text-2xl">
+          <Link
+            activeClass="active"
+            to="Contact"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
       {/* Social Icons */}
       <div className="hidden lg:flex fixed flex-col top-[25%] mb-[40px] left-0">
