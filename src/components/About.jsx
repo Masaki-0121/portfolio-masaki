@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen sx-[] bg-[#003667]  sm:pb-0 text-white"
+      className="w-full h-[90vh]  bg-[#003667]  sm:pb-0 text-white"
     >
       <Fade bottom duration={2000}>
         <div className="flex flex-col justify-center items-center w-full h-full">
