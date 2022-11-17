@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { IoLogoOctocat } from "react-icons/io";
+import { BsInstagram } from "react-icons/bs";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import Logo from "../assets/Logo-MT.svg";
@@ -232,7 +233,7 @@ const Navbar = () => {
         <li className="w-[190px] h-[50px] rounded-3xl flex justify-between items-center ml-[-100px]  mb-[20px] hover:ml-[2px] duration-300 hover:bg-[#0fc2ba]">
           <a
             className="flex justify-between  items-center w-full  h-[50px] ml-[35px] text-[#0fc2ba]  hover:text-white"
-            href="/"
+            href="https://www.linkedin.com/in/%E6%AD%A3%E6%A8%B9-%E9%81%A0%E5%B1%B1-473220256/"
           >
             Linkedin <FaLinkedin className="mr-[30px]" size={30} />
           </a>
@@ -241,9 +242,9 @@ const Navbar = () => {
         <li className="w-[190px] h-[50px] rounded-3xl flex justify-between items-center ml-[-100px]  mb-[20px] hover:ml-[2px] duration-300 hover:bg-[#0fc2ba]">
           <a
             className="flex justify-between  items-center w-full  h-[50px] ml-[35px] text-[#0fc2ba]  hover:text-white"
-            href="/"
+            href="https://www.instagram.com/masa_ui.dev/"
           >
-            Email <HiOutlineMail className="mr-[30px]" size={30} />
+            Insta <BsInstagram className="mr-[30px]" size={30} />
           </a>
         </li>
 

@@ -15,7 +15,7 @@ const Skills = () => {
       id="Skill"
       className="w-hull h-[150vh] sm:h-screen  sm:pb-0  text-white bg-[#003667]"
     >
-      <Fade bottom duration={2000}>
+      <Fade bottom duration={1200}>
         <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div>
             <h2 className="text-4xl text-right font-bold inline border-b-4 border-[#0fc2ba]">

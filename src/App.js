@@ -4,7 +4,7 @@ import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
-import Example from "./components/Work";
+import Creations from "./components/Creations";
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <Hero />
       <About />
       <Skills />
-      <Example />
+      <Creations />
       <Contact />
     </div>
   );

@@ -9,7 +9,7 @@ const About = () => {
       id="About"
       className="w-full h-[150vh] sm:h-screen bg-[#003667]  sm:pb-0 text-white"
     >
-      <Fade bottom duration={2000}>
+      <Fade bottom duration={1200}>
         <div className="flex flex-col justify-center items-center w-full h-full">
           <div className="max-w-[1200px] w-full grid grid-cols-2 gap-8">
             <div className="sm:text-left pb-8 pl-4">
