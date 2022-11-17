@@ -3,8 +3,8 @@ import HTML from "../assets/HTML.png";
 import CSS from "../assets/CSS.png";
 import JavaScript from "../assets/JavaScript.png";
 import ReactImg from "../assets/React.png";
-import Node from "../assets/Node.png";
 import Tailwind from "../assets/Tailwind.png";
+import Mui from "../assets/mui-icon.png";
 import Figma from "../assets/Figma.png";
 import FireBase from "../assets/Firebase.png";
 import Fade from "react-reveal/Fade";
@@ -28,35 +28,35 @@ const Skills = () => {
           {/* All Icons container */}
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center  py-8">
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={HTML} alt="HTML Icon" />
+              <img className="w-20 mx-auto" src={HTML} alt="HTML" />
               <p className="my-4">HTML</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={CSS} alt="HTML Icon" />
+              <img className="w-20 mx-auto" src={CSS} alt="CSS" />
               <p className="my-4">CSS</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={Tailwind} alt="HTML Icon" />
+              <img className="w-20 mx-auto" src={Tailwind} alt="Tailwind" />
               <p className="my-4">Tailwind</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={Figma} alt="HTML Icon" />
+              <img className="w-20 mx-auto" src={Figma} alt="Figma" />
               <p className="my-4">Figma</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={JavaScript} alt="HTML Icon" />
+              <img className="w-20 mx-auto" src={JavaScript} alt="JavaScript" />
               <p className="my-4">JavaScript</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={Node} alt="HTML Icon" />
-              <p className="my-4">Node.js</p>
+              <img className="w-20 mx-auto" src={Mui} alt="Material UI" />
+              <p className="my-4">MUI</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={ReactImg} alt="HTML Icon" />
+              <img className="w-20 mx-auto" src={ReactImg} alt="React" />
               <p className="my-4">React.js</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={FireBase} alt="HTML Icon" />
+              <img className="w-20 mx-auto" src={FireBase} alt="Firebase" />
               <p className="my-4">Firebase</p>
             </div>
           </div>
