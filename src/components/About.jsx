@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../assets/profile-picture.svg";
+import profilePic from "../assets/profile-picture.png";
 
 import Fade from "react-reveal/Fade";
 

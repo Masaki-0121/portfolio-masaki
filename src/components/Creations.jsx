@@ -8,7 +8,7 @@ const callouts = [
     description:
       "This my first portfolio website made out by React.js and Tailwind CSS.",
     imageSrc: require("../assets/work1.jpg"),
-    imageAlt: "",
+    imageAlt: "Japanese noodle restaurant website",
     hrefCode: "https://github.com/Masaki-0121/Komugi-homepage",
     hrefDemo: "https://masaki-0121.github.io/Komugi-homepage/",
   },
@@ -18,8 +18,7 @@ const callouts = [
     description:
       "This is a clone application of Facebook UI with some functionality made out by React.js and MUI(Material UI) ",
     imageSrc: require("../assets/work2.jpg"),
-    imageAlt:
-      "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
+    imageAlt: "Facebookis UI web application",
     hrefCode: "https://github.com/Masaki-0121/Facebookish-App",
     hrefDemo: "https://masaki-0121.github.io/Facebookish-App/",
   },
@@ -29,6 +28,7 @@ const callouts = [
     description:
       "This my first portfolio website made out by React.js and Tailwind CSS.",
     imageSrc: require("../assets/work3.jpg"),
+    imageAlt: "Portfolio website of Masaki Toyama",
     hrefCode: "https://github.com/Masaki-0121/portfolio-masaki",
     hrefDemo: "#",
   },
@@ -56,7 +56,7 @@ function Creations() {
               flex justify-center text-center items-center content-div"
                       >
                         <div className="opacity-0 group-hover:opacity-100 ">
-                          <a href={callout.hrefCode}>
+                          <a href={callout.hrefCode} target="_blank">
                             <button
                               className=" text-center rounded-lg px-4 py-3 m-2
                        bg-[#0fc2ba] text-white font-bold text-lg"
@@ -64,7 +64,11 @@ function Creations() {
                               Code
                             </button>
                           </a>
-                          <a href={callout.hrefDemo}>
+                          <a
+                            href={callout.hrefDemo}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
                             <button
                               className="text-center rounded-lg px-4 py-3 m-2
                           bg-[#0fc2ba] text-white font-bold text-lg"

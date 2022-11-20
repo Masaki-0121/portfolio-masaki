@@ -13,7 +13,7 @@ const Hero = () => {
       <img
         className="hidden xl:flex absolute top-[10%] right-[10%] z-10"
         src={bgPic}
-        alt=""
+        alt="3D graphic laptop"
       />
 
       {/* container */}
