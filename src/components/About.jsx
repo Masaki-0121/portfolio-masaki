@@ -25,12 +25,15 @@ const About = () => {
                 Hi, nice to meet you!
               </p>
               <p className="sm:text-left text-xl ">
-                My name is Masaki. I code, and design of user interfaces. I'm a
-                self-taught web developer who have a strong enthusiasm in
-                programming, designing and new technology. My interest in web
-                development started when I decided to build a my dream Ramen
-                restaurant website with HTML, and CSS when I was a cook in
-                France!
+                My name is Masaki. I code, and design user interfaces. I'm a
+                self-taught web developer who has a strong enthusiasm for
+                programming, designing, and new technology. I am currently
+                looking for a job in Japan and around the world. I have
+                experiences in HTML, CSS, JavaScript for coding, React.js for
+                the library and Figma for design. In addition, I studied UI/UX
+                at an American university. My interest in web development
+                started when I decided to build my dream Ramen restaurant
+                website with HTML and CSS when I was a cook in France!
               </p>
               <div className="sm:text-left text-xl my-[20px]">
                 <h3 className="text-2xl text-left font-bold text-[#0fc2ba]">
@@ -38,22 +41,36 @@ const About = () => {
                 </h3>
                 <ul className="text-sm text-white">
                   <li>
-                    -UI UX Design Fundamentals (California Institute of the
+                    - UI UX Design Fundamentals (California Institute of the
                     Arts）
                   </li>
                   <li>
-                    -Elements of User Interface Design (California Institute of
+                    - Elements of User Interface Design (California Institute of
                     the Arts）
                   </li>
                   <li>
-                    -Fundamentals of Graphic Design (California Institute of the
-                    Arts）
+                    - Fundamentals of Graphic Design (California Institute of
+                    the Arts）
                   </li>
-                  <li>-Introduction to HTML5（University of Michigan）</li>
+                  <li>- Introduction to HTML5（University of Michigan）</li>
+                </ul>
+              </div>
+              <div className="sm:text-left text-xl my-[20px]">
+                <h3 className="text-2xl text-left font-bold text-[#0fc2ba]">
+                  Language
+                </h3>
+                <ul className="text-sm text-white">
+                  <li>- Japanese (Native)</li>
+                  <li>- English (Business）</li>
+                  <li>- French (Daily conversational）</li>
                 </ul>
               </div>
             </div>
-            <img className="sm:pl-[20%]" src={profilePic} alt="" />
+            <img
+              className="sm:pl-[20%]"
+              src={profilePic}
+              alt="my profile portrait in black and white"
+            />
           </div>
         </div>
       </Fade>
