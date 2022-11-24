@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-masaki/static/css/main.84b2a8ea.css",
+    "main.js": "/portfolio-masaki/static/js/main.5397c565.js",
+    "static/media/3d-mac.svg": "/portfolio-masaki/static/media/3d-mac.865c5cdc8c8aa379cdcdcf9e5cb2a6b8.svg",
+    "static/media/work2.jpg": "/portfolio-masaki/static/media/work2.9aca90238888bdd05b28.jpg",
+    "static/media/work1.jpg": "/portfolio-masaki/static/media/work1.30ce109cb4ce7bdf8ae8.jpg",
+    "static/media/work3.jpg": "/portfolio-masaki/static/media/work3.e5df6c5abc9239df240c.jpg",
+    "static/media/profile-picture.png": "/portfolio-masaki/static/media/profile-picture.fe41b64ae899b9ea03e8.png",
+    "static/media/react-original.svg": "/portfolio-masaki/static/media/react-original.a7cba2937728ce9ee33f15ea162f2cbf.svg",
+    "static/media/nodejs-original.svg": "/portfolio-masaki/static/media/nodejs-original.93e85335692fcfb514c2ed879f782924.svg",
+    "static/media/flutter-original.svg": "/portfolio-masaki/static/media/flutter-original.8b860c59e565e42b89692442b4862c09.svg",
+    "index.html": "/portfolio-masaki/index.html",
+    "static/media/nextjs-line.svg": "/portfolio-masaki/static/media/nextjs-line.f008fa128664fd0e51ef1c33e03a4ec5.svg",
+    "static/media/Logo-MT.svg": "/portfolio-masaki/static/media/Logo-MT.48084773aef4680ce15f05594bf6cbea.svg",
+    "main.84b2a8ea.css.map": "/portfolio-masaki/static/css/main.84b2a8ea.css.map",
+    "main.5397c565.js.map": "/portfolio-masaki/static/js/main.5397c565.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84b2a8ea.css",
+    "static/js/main.5397c565.js"
+  ]
+}
