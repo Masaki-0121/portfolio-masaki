@@ -1,9 +1,10 @@
 // import { EmailJSResponseStatus } from "@emailjs/browser";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import contactImg from "../assets/3Dperson.svg";
 import ReactIcon from "../assets/react-original.svg";
 import FlutterIcon from "../assets/flutter-original.svg";
+import NodeIcon from "../assets/nodejs-original.svg";
+import NextjsIcon from "../assets/nextjs-line.svg";
 
 const Contact = () => {
   const form = useRef();
@@ -34,17 +35,16 @@ const Contact = () => {
       id="Contact"
       className=" h-screen sm:h-screen relative bg-[#003667]  flex justify-center items-center"
     >
-      <div className="hidden xl:flex  sm:absolute sm:top-0 sm:right-[2%]">
-        <img
-          className="h-[800px] w-[500px] animate-floating"
-          src={contactImg}
-          alt=""
-        />
+      <div className="hidden xl:flex sm:absolute sm:top-[25%] sm:right-[200px]">
+        <img src={NodeIcon} alt="" className=" animate-floating" />
+      </div>
+      <div className="hidden xl:flex sm:absolute sm:top-[55%] sm:right-[200px]">
+        <img src={NextjsIcon} alt="" className=" animate-floating" />
       </div>
       <div className="hidden xl:flex sm:absolute sm:top-[25%] sm:left-[200px]">
         <img src={ReactIcon} alt="" className=" animate-floating" />
       </div>
-      <div className="hidden xl:flex  sm:absolute sm:top-[55%] sm:left-[300px]">
+      <div className="hidden xl:flex  sm:absolute sm:top-[55%] sm:left-[200px]">
         <img src={FlutterIcon} alt="" className=" animate-floating" />
       </div>
       <div
@@ -54,7 +54,7 @@ const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex flex-col max-w-[600px] w-full"
+          className="flex flex-col max-w-[600px] w-full "
         >
           <div className="pb-8">
             <p className=" text-4xl font-bold inline border-b-4 border-[#0fc2ba] text-white">

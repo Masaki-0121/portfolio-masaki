@@ -1,15 +1,16 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-reveal";
 
 const callouts = [
   {
     id: 1,
     name: "Ramen Komugi website",
     description:
-      "This my first portfolio website made out by React.js and Tailwind CSS.",
+      "Japanese Noodle restaurant web page written by vanilla JavaScript, and SASS.",
     imageSrc: require("../assets/work1.jpg"),
-    imageAlt: "",
-    href: "https://masaki-0121.github.io/Komugi-homepage/",
+    imageAlt: "Japanese noodle restaurant website",
+    hrefCode: "https://github.com/Masaki-0121/Komugi-homepage",
+    hrefDemo: "https://masaki-0121.github.io/Komugi-homepage/",
   },
   {
     id: 2,
@@ -17,9 +18,9 @@ const callouts = [
     description:
       "This is a clone application of Facebook UI with some functionality made out by React.js and MUI(Material UI) ",
     imageSrc: require("../assets/work2.jpg"),
-    imageAlt:
-      "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
-    href: "https://masaki-0121.github.io/Facebookish-App/",
+    imageAlt: "Facebookis UI web application",
+    hrefCode: "https://github.com/Masaki-0121/Facebookish-App",
+    hrefDemo: "https://masaki-0121.github.io/Facebookish-App/",
   },
   {
     id: 3,
@@ -27,48 +28,74 @@ const callouts = [
     description:
       "This my first portfolio website made out by React.js and Tailwind CSS.",
     imageSrc: require("../assets/work3.jpg"),
-    href: "https://masaki-0121.github.io/Komugi-homepage/",
+    imageAlt: "Portfolio website of Masaki Toyama",
+    hrefCode: "https://github.com/Masaki-0121/portfolio-masaki",
+    hrefDemo: "#",
   },
 ];
 
-export default function Example() {
+function Work() {
   return (
-    <div id="Work" className="w-full h-[200vh] sm:h-screen bg-[#003667]">
-      <Fade bottom duration={1200}>
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-white">
-          <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-            <h2 className="text-4xl text-right font-bold inline border-b-4 border-[#0fc2ba]">
-              Work
-            </h2>
-
-            <div className="mx-w-[1200px] mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
-              {callouts.map((callout) => (
-                <div key={callout.id} className="group relative">
-                  <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75F sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                    <img
-                      style={{ backgroundImage: `url(${callout.imageSrc})` }}
-                      src={callout.imageSrc}
-                      alt={callout.imageAlt}
-                      className="h-full w-full object-fill object-center bg-cover flex justify-center items-center group-hover:opacity-75"
-                    />
-                  </div>
-
-                  <h3 className="mt-6 text-sm text-[#0fc2ba]">
-                    <a href={callout.href}>
-                      <span className="absolute inset-0 font-bold" />
+    <div>
+      <div
+        id="Work"
+        className="w-full h-[190vh]  md:h-[140vh]  xl:h-screen  bg-[#003667]"
+      >
+        <Fade bottom duration={1200}>
+          <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 text-white">
+            <div className="max-w-[1200px] w-full sm:w-[600px]  md:w-[600px] xl:w-[950px] 2xl:w-full mx-auto  py-10 sm:py-14 lg:max-w-none lg:py-32">
+              <h2 className="text-4xl text-right font-bold inline border-b-4 border-[#0fc2ba]">
+                Work
+              </h2>
+              <div className="  mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+                {callouts.map((callout) => (
+                  <div className="group relative">
+                    <div className="relative h-50 w-full overflow-hidden rounded-lg  group-hover:opacity-75F sm:aspect-w-2      sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                      <div
+                        img
+                        style={{ backgroundImage: `url(${callout.imageSrc})` }}
+                        alt=""
+                        className=" group container rounded-md flex justify-center text-center items-center content-div"
+                      >
+                        <div className="opacity-0 group-hover:opacity-100 ">
+                          <a href={callout.hrefCode} target="_blank">
+                            <button
+                              className=" text-center rounded-lg px-4 py-3 m-2
+                       bg-[#0fc2ba] text-white font-bold text-lg"
+                            >
+                              Code
+                            </button>
+                          </a>
+                          <a
+                            href={callout.hrefDemo}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <button
+                              className="text-center rounded-lg px-4 py-3 m-2
+                          bg-[#0fc2ba] text-white font-bold text-lg"
+                            >
+                              Demo
+                            </button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <h3 className="mt-6 text-sm text-[#0fc2ba]">
                       {callout.name}
-                    </a>
-                  </h3>
-
-                  <p className="text-base font-semibold text-white">
-                    {callout.description}
-                  </p>
-                </div>
-              ))}
+                    </h3>
+                    <p className="text-base font-semibold text-white">
+                      {callout.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      </Fade>
+        </Fade>
+      </div>
     </div>
   );
 }
+
+export default Work;

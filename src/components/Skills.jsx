@@ -16,7 +16,7 @@ const Skills = () => {
       className="w-hull h-[150vh] sm:h-screen  sm:pb-0  text-white bg-[#003667]"
     >
       <Fade bottom duration={1200}>
-        <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="max-w-[1200px] md:w-[600px] xl:w-[950px] 2xl:w-full mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div>
             <h2 className="text-4xl text-right font-bold inline border-b-4 border-[#0fc2ba]">
               Skills
@@ -26,7 +26,7 @@ const Skills = () => {
             </p>
           </div>
           {/* All Icons container */}
-          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center  py-8">
+          <div className="w-full  grid grid-cols-2 sm:grid-cols-4 gap-4 text-center  py-8">
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
               <img className="w-20 mx-auto" src={HTML} alt="HTML" />
               <p className="my-4">HTML</p>

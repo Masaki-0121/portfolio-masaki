@@ -26,7 +26,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* Menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden xl:flex">
         <li
           className="px-5  relative
                 cursor-pointer
@@ -156,8 +156,9 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+
       {/* Hamburger Menu */}
-      <div onClick={handleClick} className="md:hidden z-50">
+      <div onClick={handleClick} className="xl:hidden z-50">
         {!nav ? (
           <FaBars size={25} className="fill-[#0fc2ba]" />
         ) : (
@@ -169,7 +170,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "fixed top-0 left-0 w-full h-screen bg-[#003667] flex flex-col justify-center items-center text-white "
+            : "fixed top-0 left-0 w-full h-screen bg-[#003667] flex flex-col justify-center items-center text-[#0fc2ba] "
         }
       >
         <li className="py-6 text-2xl">Home</li>
@@ -217,13 +218,47 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <div className="flex pt-[50px]">
+          <li>
+            <a
+              href="https://github.com/Masaki-0121"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub className="mx-[30px] my-[30px]" size={30} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/%E6%AD%A3%E6%A8%B9-%E9%81%A0%E5%B1%B1-473220256/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin className="mx-[30px] my-[30px]" size={30} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/masa_ui.dev/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsInstagram className="mx-[30px] my-[30px]" size={30} />
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <IoLogoOctocat className="mx-[30px] my-[30px]" size={30} />
+            </a>
+          </li>
+        </div>
       </ul>
       {/* Social Icons */}
       <div className="hidden lg:flex fixed flex-col top-[25%] mb-[40px] left-0">
         <ul>
           <li className="w-[190px] h-[50px] rounded-3xl flex justify-between items-center ml-[-100px]   mb-[20px] hover:ml-[2px] duration-300 hover:bg-[#0fc2ba]">
             <a
-              className=" flex justify-between  items-center w-full h-[50px] ml-[35px] text-[#0fc2ba] hover:text-white"
+              className=" flex justify-between  items-center w-full h-[50px] pl-[35px] text-[#0fc2ba] hover:text-white"
               href="https://github.com/Masaki-0121"
               target="_blank"
               rel="noreferrer"
@@ -234,7 +269,7 @@ const Navbar = () => {
 
           <li className="w-[190px] h-[50px] rounded-3xl flex justify-between items-center ml-[-100px]  mb-[20px] hover:ml-[2px] duration-300 hover:bg-[#0fc2ba]">
             <a
-              className="flex justify-between  items-center w-full  h-[50px] ml-[35px] text-[#0fc2ba]  hover:text-white"
+              className="flex justify-between  items-center w-full  h-[50px] pl-[35px] text-[#0fc2ba]  hover:text-white"
               href="https://www.linkedin.com/in/%E6%AD%A3%E6%A8%B9-%E9%81%A0%E5%B1%B1-473220256/"
               target="_blank"
               rel="noreferrer"
@@ -245,7 +280,7 @@ const Navbar = () => {
 
           <li className="w-[190px] h-[50px] rounded-3xl flex justify-between items-center ml-[-100px]  mb-[20px] hover:ml-[2px] duration-300 hover:bg-[#0fc2ba]">
             <a
-              className="flex justify-between  items-center w-full  h-[50px] ml-[35px] text-[#0fc2ba]  hover:text-white"
+              className="flex justify-between  items-center w-full  h-[50px] pl-[35px] text-[#0fc2ba]  hover:text-white"
               href="https://www.instagram.com/masa_ui.dev/"
               target="_blank"
               rel="noreferrer"
@@ -256,10 +291,10 @@ const Navbar = () => {
 
           <li className="w-[190px] h-[50px] rounded-3xl flex justify-between items-center ml-[-100px]  mb-[20px] hover:ml-[2px] duration-300 hover:bg-[#0fc2ba]">
             <a
-              className="flex justify-between  items-center w-full  h-[50px] ml-[35px] text-[#0fc2ba]  hover:text-white"
+              className="flex justify-between  items-center w-full  h-[50px] pl-[35px] text-[#0fc2ba]  hover:text-white"
               href="/"
             >
-              Resume <IoLogoOctocat className="mr-[30px]" size={30} />
+              Blog <IoLogoOctocat className="mr-[30px]" size={30} />
             </a>
           </li>
         </ul>
