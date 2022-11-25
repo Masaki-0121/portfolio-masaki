@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-masaki/static/css/main.84b2a8ea.css",
-    "main.js": "/portfolio-masaki/static/js/main.5397c565.js",
+    "main.css": "/portfolio-masaki/static/css/main.2d03b78a.css",
+    "main.js": "/portfolio-masaki/static/js/main.d9df3956.js",
     "static/media/3d-mac.svg": "/portfolio-masaki/static/media/3d-mac.865c5cdc8c8aa379cdcdcf9e5cb2a6b8.svg",
     "static/media/work2.jpg": "/portfolio-masaki/static/media/work2.9aca90238888bdd05b28.jpg",
     "static/media/work1.jpg": "/portfolio-masaki/static/media/work1.30ce109cb4ce7bdf8ae8.jpg",
@@ -13,11 +13,11 @@
     "index.html": "/portfolio-masaki/index.html",
     "static/media/nextjs-line.svg": "/portfolio-masaki/static/media/nextjs-line.f008fa128664fd0e51ef1c33e03a4ec5.svg",
     "static/media/Logo-MT.svg": "/portfolio-masaki/static/media/Logo-MT.48084773aef4680ce15f05594bf6cbea.svg",
-    "main.84b2a8ea.css.map": "/portfolio-masaki/static/css/main.84b2a8ea.css.map",
-    "main.5397c565.js.map": "/portfolio-masaki/static/js/main.5397c565.js.map"
+    "main.2d03b78a.css.map": "/portfolio-masaki/static/css/main.2d03b78a.css.map",
+    "main.d9df3956.js.map": "/portfolio-masaki/static/js/main.d9df3956.js.map"
   },
   "entrypoints": [
-    "static/css/main.84b2a8ea.css",
-    "static/js/main.5397c565.js"
+    "static/css/main.2d03b78a.css",
+    "static/js/main.d9df3956.js"
   ]
 }
