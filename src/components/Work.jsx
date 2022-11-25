@@ -39,7 +39,7 @@ function Work() {
     <div>
       <div
         id="Work"
-        className="w-full h-[190vh]  md:h-[140vh]  xl:h-screen  bg-[#003667]"
+        className="w-full h-[190vh] sm:h-[350vh]  md:h-[140vh]  xl:h-screen  bg-[#003667]"
       >
         <Fade bottom duration={1200}>
           <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 text-white">

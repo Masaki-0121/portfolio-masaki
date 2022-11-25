@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div
       id="Home"
-      className="w-full mx-auto  h-[100vh] sm:h-screen sm:pb-0  bg-[#003667]"
+      className="w-full mx-auto h-[100vh] sm:h-[180vh] md:h-[70vh] xl:h-screen sm:pb-0  bg-[#003667]"
     >
       <div className="max-w-[1000px] md:w-[600px] xl:w-[1000px]  mx-auto">
         <img

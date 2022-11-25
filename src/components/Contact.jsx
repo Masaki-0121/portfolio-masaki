@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <div
       id="Contact"
-      className=" h-screen sm:h-screen relative bg-[#003667]  flex justify-center items-center"
+      className=" h-screen sm:h-[200vh] md:h-[100vh] xl:h-screen relative bg-[#003667]  flex justify-center items-center"
     >
       <div className="hidden xl:flex sm:absolute sm:top-[25%] sm:right-[200px]">
         <img src={NodeIcon} alt="" className=" animate-floating" />
